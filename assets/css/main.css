@@ -1763,6 +1763,13 @@ input, select, textarea {
 			width: 48px;
 			height: 48px; 
 		}
+		.image.avatarCustom {
+			width: 15pc;   
+		}
+		
+		.image.avatarLogo {  	
+		width: 25pc;
+		}
 		
 		.image.language {
 			width: 48px;
@@ -1770,10 +1777,10 @@ input, select, textarea {
 			background: #f00;
 		}
 
-			.image.avatar48 img {
-				width: 48px;
-				height: 48px;
-			}
+		.image.avatar48 img {
+			width: 48px;
+			height: 48px;
+		}
 
 		.image.fit {
 			display: block;
@@ -2091,7 +2098,7 @@ input, select, textarea {
 				}
 
 	#logo {
-		position: relative;
+		position: relative; 
 		margin: 1.75em 1.5em 1.5em 1.5em;
 		min-height: 48px;
 		cursor: default;
@@ -2581,7 +2588,7 @@ input, select, textarea {
 
 /* Hide the images by default */
 .mySlides {
-    display: none;
+    display: none;	  
 }
 
 /* Next & previous buttons */
@@ -2613,7 +2620,7 @@ input, select, textarea {
 /* Caption text */
 .text {
   color: #ffffff;
-  font-size: 35px;
+  font-size: 20px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -2689,6 +2696,7 @@ input, select, textarea {
 			.container {
 				padding: 0 15px 0 15px;
 			}
+			
 
 		/* List */
 
