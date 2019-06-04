@@ -1,0 +1,41 @@
+<header>
+	<h2>Информация</h2>
+</header> 
+<div class="slideshow-container"> 
+						<!-- Full-width images with number and caption text -->
+  <div class="mySlides">
+	<!--div class="numbertext">1 / 4</div-->
+	<img src="images/s01.jpg" style="width:100%">
+	<div class="text shadow">Ваш слесарь!</div>
+  </div> 
+  <div class="mySlides">
+	<!--div class="numbertext">2 / 4</div-->
+	<img src="images/s02.jpg" style="width:100%">
+	<div class="text shadow">Изготовление и копирование всех типов битовых ключей.</div>
+  </div> 
+  <div class="mySlides">
+	<!--div class="numbertext">3 / 4</div-->
+	<img src="images/s03.jpg" style="width:100%">
+	<div class="text shadow">Изготовление и копирование всех видов автомобильных ключей с чипом и дистанционным управлением.</div>
+  </div> 
+	<div class="mySlides">
+	<!--div class="numbertext">4 / 4</div-->
+	<img src="images/s04.jpg" style="width:100%">
+	<div class="text shadow">Аварийная разблокировка домов и автомобилей.</div>
+  </div> 
+  </div>
+  <script>
+var slideIndex = 0; 
+showSlides();  
+
+function showSlides() {  
+	var slides = document.getElementsByClassName("mySlides");
+	for (var i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none"; 
+	}
+	slideIndex++;
+	if (slideIndex > slides.length) {slideIndex = 1} 
+	slides[slideIndex-1].style.display = "block"; 
+	setTimeout(showSlides, 4000); 
+}
+</script>
